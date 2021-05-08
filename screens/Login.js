@@ -102,7 +102,7 @@ export default class Login extends Component {
                     backgroundColor: "#6699FF",
                 }]}>
                     <Text style={styles.loginText}
-                        onPress={() => this.props.navigation.navigate('Signup')}>REGISTER</Text>
+                        onPress={() => this.props.navigation.navigate('Signup')}>SIGNUP</Text>
                 </TouchableOpacity>
             </View>
         );
